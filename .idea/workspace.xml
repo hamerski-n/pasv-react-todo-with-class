@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,6 +75,18 @@
         <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -96,6 +108,18 @@
         <script value="predeploy" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -119,7 +143,9 @@
       <updated>1583474110346</updated>
       <workItem from="1583474112359" duration="9206000" />
       <workItem from="1583540162437" duration="22552000" />
-      <workItem from="1583563536684" duration="250000" />
+      <workItem from="1583563536684" duration="1227000" />
+      <workItem from="1583564796091" duration="3000" />
+      <workItem from="1583565315373" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="TodoList with add, delete, modal, moveUp and moveDown">
       <created>1583562395246</created>
@@ -128,57 +154,88 @@
       <option name="project" value="LOCAL" />
       <updated>1583562395247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TodoList with add, delete, moveUp and moveDown">
+      <created>1583563803595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583563803595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TodoList with add, delete, moveUp and moveDown" />
     <MESSAGE value="TodoList with add, delete, modal, moveUp and moveDown" />
-    <option name="LAST_COMMIT_MESSAGE" value="TodoList with add, delete, modal, moveUp and moveDown" />
+    <MESSAGE value="TodoList with add, delete, moveUp and moveDown" />
+    <option name="LAST_COMMIT_MESSAGE" value="TodoList with add, delete, moveUp and moveDown" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="5" key="#ESLint" timestamp="1583560441480">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="5" key="#ESLint/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583560441480" />
-    <state x="361" y="57" key="#build" timestamp="1583562553710">
+    <state x="361" y="57" key="#build" timestamp="1583566018441">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="361" y="57" key="#build/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583562553710" />
-    <state x="361" y="57" key="#npm_start" timestamp="1583479280468">
+    <state x="361" y="57" key="#build/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566018441" />
+    <state x="361" y="57" key="#deploy" timestamp="1583566738234">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="361" y="57" key="#npm_start/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583479280468" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1583563587900">
+    <state x="361" y="57" key="#deploy/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566738234" />
+    <state x="361" y="57" key="#eject" timestamp="1583566033563">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563587900" />
-    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1583534496769">
+    <state x="361" y="57" key="#eject/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566033563" />
+    <state x="361" y="57" key="#npm_start" timestamp="1583566013496">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583534496769" />
-    <state width="1259" height="107" key="GridCell.Tab.0.bottom" timestamp="1583563777510">
+    <state x="361" y="57" key="#npm_start/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566013496" />
+    <state x="361" y="57" key="#predeploy" timestamp="1583566038487">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.bottom/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
-    <state width="1259" height="107" key="GridCell.Tab.0.center" timestamp="1583563777510">
+    <state x="361" y="57" key="#predeploy/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566038487" />
+    <state x="361" y="57" key="#test" timestamp="1583566024930">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.center/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
-    <state width="1259" height="107" key="GridCell.Tab.0.left" timestamp="1583563777510">
+    <state x="361" y="57" key="#test/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566024930" />
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1583566852467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.left/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
-    <state width="1259" height="107" key="GridCell.Tab.0.right" timestamp="1583563777510">
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566852467" />
+    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1583566863586">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.right/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1583562433533">
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566863586" />
+    <state width="1259" height="107" key="GridCell.Tab.0.bottom" timestamp="1583566532290">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583562433533" />
+    <state width="1259" height="107" key="GridCell.Tab.0.bottom/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566532290" />
+    <state width="1259" height="107" key="GridCell.Tab.0.center" timestamp="1583566532290">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1259" height="107" key="GridCell.Tab.0.center/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566532290" />
+    <state width="1259" height="107" key="GridCell.Tab.0.left" timestamp="1583566532290">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1259" height="107" key="GridCell.Tab.0.left/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566532290" />
+    <state width="1259" height="107" key="GridCell.Tab.0.right" timestamp="1583566532290">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1259" height="107" key="GridCell.Tab.0.right/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566532290" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1583564477499">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583564477499" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1583563812440">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563812440" />
+    <state x="93" y="93" width="1095" height="504" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583566892059">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="93" y="93" width="1095" height="504" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583566892059" />
   </component>
 </project>
