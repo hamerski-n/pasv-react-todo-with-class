@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pasv-react-todo-with-class/static/css/main.050523cc.chunk.css",
+    "main.js": "/pasv-react-todo-with-class/static/js/main.3d59e5cc.chunk.js",
+    "main.js.map": "/pasv-react-todo-with-class/static/js/main.3d59e5cc.chunk.js.map",
+    "runtime-main.js": "/pasv-react-todo-with-class/static/js/runtime-main.c7bc2483.js",
+    "runtime-main.js.map": "/pasv-react-todo-with-class/static/js/runtime-main.c7bc2483.js.map",
+    "static/css/2.66165e39.chunk.css": "/pasv-react-todo-with-class/static/css/2.66165e39.chunk.css",
+    "static/js/2.769c7530.chunk.js": "/pasv-react-todo-with-class/static/js/2.769c7530.chunk.js",
+    "static/js/2.769c7530.chunk.js.map": "/pasv-react-todo-with-class/static/js/2.769c7530.chunk.js.map",
+    "index.html": "/pasv-react-todo-with-class/index.html",
+    "precache-manifest.8b33d52f63cb36372fc92f609846f231.js": "/pasv-react-todo-with-class/precache-manifest.8b33d52f63cb36372fc92f609846f231.js",
+    "service-worker.js": "/pasv-react-todo-with-class/service-worker.js",
+    "static/css/2.66165e39.chunk.css.map": "/pasv-react-todo-with-class/static/css/2.66165e39.chunk.css.map",
+    "static/css/main.050523cc.chunk.css.map": "/pasv-react-todo-with-class/static/css/main.050523cc.chunk.css.map",
+    "static/js/2.769c7530.chunk.js.LICENSE.txt": "/pasv-react-todo-with-class/static/js/2.769c7530.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7bc2483.js",
+    "static/css/2.66165e39.chunk.css",
+    "static/js/2.769c7530.chunk.js",
+    "static/css/main.050523cc.chunk.css",
+    "static/js/main.3d59e5cc.chunk.js"
+  ]
+}
