@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b7cc7f-c7c3-4e08-9869-7c7e3ed3a867" name="Default Changelist" comment="TodoList with add, delete, moveUp and moveDown">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/app/s.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/confirmation-delete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/confirmation-delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item-movements/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item-movements/todo-list-item-movements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,8 +53,29 @@
       <recent name="C:\Users\Natalie\Desktop\PASV\class-todo\src\components\todo-list-item" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -90,6 +89,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,8 +118,17 @@
       <option name="presentableId" value="Default" />
       <updated>1583474110346</updated>
       <workItem from="1583474112359" duration="9206000" />
-      <workItem from="1583540162437" duration="21387000" />
+      <workItem from="1583540162437" duration="22552000" />
+      <workItem from="1583563536684" duration="250000" />
     </task>
+    <task id="LOCAL-00001" summary="TodoList with add, delete, modal, moveUp and moveDown">
+      <created>1583562395246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583562395247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,40 +136,49 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TodoList with add, delete, moveUp and moveDown" />
-    <option name="LAST_COMMIT_MESSAGE" value="TodoList with add, delete, moveUp and moveDown" />
+    <MESSAGE value="TodoList with add, delete, modal, moveUp and moveDown" />
+    <option name="LAST_COMMIT_MESSAGE" value="TodoList with add, delete, modal, moveUp and moveDown" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="5" key="#ESLint" timestamp="1583560441480">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="5" key="#ESLint/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583560441480" />
+    <state x="361" y="57" key="#build" timestamp="1583562553710">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="361" y="57" key="#build/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583562553710" />
     <state x="361" y="57" key="#npm_start" timestamp="1583479280468">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="361" y="57" key="#npm_start/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583479280468" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1583562190470">
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1583563587900">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583562190470" />
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563587900" />
     <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1583534496769">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583534496769" />
-    <state width="1259" height="107" key="GridCell.Tab.0.bottom" timestamp="1583540318384">
+    <state width="1259" height="107" key="GridCell.Tab.0.bottom" timestamp="1583563777510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.bottom/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583540318384" />
-    <state width="1259" height="107" key="GridCell.Tab.0.center" timestamp="1583540318384">
+    <state width="1259" height="107" key="GridCell.Tab.0.bottom/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
+    <state width="1259" height="107" key="GridCell.Tab.0.center" timestamp="1583563777510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.center/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583540318384" />
-    <state width="1259" height="107" key="GridCell.Tab.0.left" timestamp="1583540318384">
+    <state width="1259" height="107" key="GridCell.Tab.0.center/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
+    <state width="1259" height="107" key="GridCell.Tab.0.left" timestamp="1583563777510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.left/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583540318384" />
-    <state width="1259" height="107" key="GridCell.Tab.0.right" timestamp="1583540318384">
+    <state width="1259" height="107" key="GridCell.Tab.0.left/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
+    <state width="1259" height="107" key="GridCell.Tab.0.right" timestamp="1583563777510">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="107" key="GridCell.Tab.0.right/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583540318384" />
+    <state width="1259" height="107" key="GridCell.Tab.0.right/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583563777510" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1583562433533">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583562433533" />
   </component>
 </project>
