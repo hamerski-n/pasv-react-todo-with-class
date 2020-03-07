@@ -14,15 +14,11 @@ class App extends Component {
 
     state = {
         list: [
-            {
-                id: 1, name: 'First todo', isDisabledUp: true, isDisabledDown: false
-            },
-            {
-                id: 2, name: 'Second todo', isDisabledUp: false, isDisabledDown: false
-            },
-            {
-                id: 3, name: 'Third todo', isDisabledUp: false, isDisabledDown: true
-            }
+            { id: 1, name: '1st todo', isDisabledUp: true, isDisabledDown: false },
+            { id: 2, name: '2d todo', isDisabledUp: false, isDisabledDown: false },
+            { id: 3, name: '3d todo', isDisabledUp: false, isDisabledDown: false },
+            { id: 4, name: '4th todo', isDisabledUp: false, isDisabledDown: false },
+            { id: 5, name: '5th todo', isDisabledUp: false, isDisabledDown: true }
         ],
         todo: ' ',
         confirmCounter: {},
@@ -104,7 +100,32 @@ class App extends Component {
         return (this.setState({list: newList}))
     };
 
+    todoListItemDown= (item) => {
+        const idx = this.state.list.findIndex(el => el.id === item.id);
+        const len = this.state.list.length;
+        console.log('index= ', idx);
+        console.log('len= ', len);
+        console.log('list= ', this.state.list);
+        let newList;
+        if (idx === 0) {
+            newList = [{...this.state.list[1], isDisabledUp: true},
+                {...this.state.list[0], isDisabledUp: false},
+                ...this.state.list.slice(2)];
+        } else if (idx === len - 2) {
+            newList = [...this.state.list.slice(0, idx),
+                {...this.state.list[len - 1], isDisabledDown: false},
+                {...this.state.list[len - 2], isDisabledDown: true}];
+        } else {
+            newList = [
+                ...this.state.list.slice(0, idx),
+                this.state.list[idx+1],
+                this.state.list[idx],
+                ...this.state.list.slice(idx + 2)
+            ];
+        }
 
+        return (this.setState({list: newList}))
+    };
     render() {
         console.log('Render');
 
@@ -131,6 +152,7 @@ class App extends Component {
                                 item={el}
                                 remove={this.confirmRemove}
                                 todoListItemUp={this.todoListItemUp}
+                                todoListItemDown={this.todoListItemDown}
                             />)
                     }
                 </ul>
